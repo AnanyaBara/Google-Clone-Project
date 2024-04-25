@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    /* border: border box; */
+    box-sizing: border-box;
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+    color: black;
+
+}
+
+/* header {
+    margin-left: 80vw;
+} */
+
+header {
+    margin-top: 0.85em;
+    margin-left: 75vw;
+
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    list-style: none;
+    /* margin-right:3em; */
+    /* justify-content: center;
+    align-items: ; */
+    padding: 20px;
+}
+
+li {
+    display: inline;
+    margin-right: 1em;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+nav button {
+    /* background-color: #1a73e8;
+    margin: 0px 8px;
+    padding: 9px 23px; */
+    background: #1a73e8;
+    border: none;
+    outline: none;
+    padding: 10px 24px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+
+.google-main {
+    max-width: 700px;
+    margin-top: 8vh;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.google-main>img {
+    width: 20vw;
+}
+
+.searchBox {
+    /* border: 1px solid blue; */
+    width: 100%;
+    height: 2.5em;
+    position: relative;
+    align-items: center;
+    overflow-x: unset;
+    border-radius: 24px;
+    border: 1px solid rgb(208, 196, 196);
+    display: flex;
+    justify-content: center;
+
+}
+
+.search {
+    border: none;
+    position: absolute;
+    /* left: 35%; */
+    width: 90%;
+    height: 100%;
+    overflow-y: hidden;
+}
+
+.icons {
+    position: absolute;
+    left: 4%;
+}
+
+.miclens {
+    position: absolute;
+    right: 4%;
+    display: flex;
+    align-items: center;
+    /* border:1px solid red; */
+}
+
+.miclens .img1 {
+    margin-right: 1.5em;
+}
+
+.languages {
+    /* border: 1px solid red; */
+    justify-content: center;
+
+}
+
+.languages li {
+    font-size: 0.85em;
+}
+
+
+
+.items {
+    margin-bottom: 2em;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.buttons button {
+    margin: 0 5px;
+    padding: 12px 20px;
+    color: #3c4043;
+    background: #f8f9fa;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    outline: none;
+}
+
+.footer {
+
+    margin-top: 1em;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: whitesmoke;
+    color: black;
+    position: relative;
+
+    margin-bottom: 0;
+}
+
+.row1 {
+    padding: 1.5em;
+}
+
+.row2 {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+
+}
+
+.row2>ul:nth-child(2) {
+    justify-content: flex-end;
+}
